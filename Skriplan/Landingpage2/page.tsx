@@ -36,17 +36,17 @@ export default function page() {
             Anda Sebagai Apa?
           </h1>
 
-          {/* Mahasiswa Button */}
+          {/* Dosen Button */}
           <button 
-            onClick={() => router.push('/Skriplan/Logindosen')}
+            onClick={() => router.push('/Skriplan/Admin/Logindosen')}
             className="relative font-poppins px-6 py-3 mt-6 text-lg font-semibold text-[#1E3E62] bg-gradient-to-b from-[#FF7418] to-[#FDDC95] rounded-full border border-[#1E3E62] hover:scale-110 transition-all duration-400 cursor-pointer shadow-2xl flex items-center gap-2">
             <img src="/assets/Dosennavy.png" alt="mahasiswa" className="w-6 h-6" />
             Dosen
           </button>
 
-          {/* Dosen Button */}
+          {/* Mahasiswa Button */}
           <button 
-            onClick={() => router.push('/Skriplan/Loginmahasiswa')}
+            onClick={() => router.push('/Skriplan/User/Loginmahasiswa')}
             className="relative font-poppins px-6 py-3 mt-4 text-lg font-semibold text-[#1E3E62] bg-gradient-to-b from-[#FF7418] to-[#FDDC95] rounded-full border border-[#1E3E62] hover:scale-110 transition-all duration-400 cursor-pointer shadow-2xl flex items-center gap-2">
             <img src="/assets/Gradnavy.png" alt="dosen" className="w-6 h-6" />
             Mahasiswa
